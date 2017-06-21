@@ -17,15 +17,16 @@ app.get('/', function(req, res) {
 
 app.get('/:dateVal', function(req,res) {    
     var input = req.params.dateVal;
+    var unixTime = Date.parse(input)/1000;
     
     if(input>=0 && input<=8640000000000) {
         res.json({
             unix: input,
             natural: moment.unix(input).format('MMMM DD, YYYY')
         }); //end res.json
-    } else if (moment(input).unix()) {
+    } else if (!isNaN(unixTime)) {
         res.json({
-            unix: moment(input).unix(),
+            unix: unixTime,
             natural: input
         }); //end res.json
     } else {
