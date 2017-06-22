@@ -17,5 +17,4 @@
 ##### Technologies used to complete this project
 - HTML
 - Node.js
-- Npm
 - JavaScript
