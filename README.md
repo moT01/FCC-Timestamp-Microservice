@@ -1,5 +1,5 @@
 ## FCC-Timestamp-Microservice
-##### Timestamp Microservice project for [freecodecamp.com](https://www.freecodecamp.com/challenges/timestamp-microservice)
+##### Timestamp Microservice project for [freeCodeCamp](https://www.freecodecamp.org/)
 ##### Check it out [here](https://mixed-tadpole.glitch.me/)
 
 <br/>
@@ -16,5 +16,6 @@
 
 ##### Technologies used to complete this project
 - HTML
-- Node.js
 - JavaScript
+- Node
+- Express
